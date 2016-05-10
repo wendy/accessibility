@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practical Accessibility - Images</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+
+  </head>
+  <body>
+    <main class="main">
+        <header>
+            <h2 class="header h2">Images</h2>
+            <p class="header-slogan">Alt - Always Include Tag</p>
+        </header>
+        <section class="row">
+            <img class="img-alt" src="../images/bigcommerce_logo_dark.png"/>
+            <img class="img-alt" src="../images/bigcommerce_logo_dark.png" alt="bigcommerce"/>
+        </section>
+        <section class="row">
+            <pre class="pre img-pre">
+                <code class="language-html" data-lang="html">
+    &#60;img class="img-alt"
+         src="../images/bigcommerce_logo_dark.png"/&#62;
+                </code>
+            </pre>
+            <pre class="pre img-pre">
+                <code class="language-html" data-lang="html">
+    &#60;img class="img-alt"
+         src="../images/bigcommerce_logo_dark.png"
+         alt="bigcommerce"/&#62;</code>
+            </pre>
+        </section>
+        <img class="img-decor-left" src="../images/decoration_footer_left.png">
+        <img class="img-decor-right" src="../images/decoration_home_right.png" alt="">    
+    </main>
+  </body>
+</html>
